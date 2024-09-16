@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="hello_message">Jay shree Krishna, Kem cho!</string>
+    <string name="ButtonText">Hu ek Button Chu</string> <!-- Gujrati for "I’m a button" -->
+</resources>
+
+
