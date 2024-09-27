@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <!-- Row 1: TextView spanning 2 columns -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/look_at_my_gui"
+        android:textSize="30dp"
+        android:layout_columnSpan="2" />
+
+    <!-- Row 2: Button and CheckBox -->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here"
+        android:layout_column="0" />
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/check_this_out"
+        android:layout_column="1" />
+
+    <!-- Row 3: ImageButton and Switch -->
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:layout_column="0" />
+
+    <Switch
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_on_off"
+        android:layout_column="1" />
+
+    <!-- Row 4: EditText spanning 2 columns -->
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_here"
+        android:inputType="textPersonName"
+        android:layout_columnSpan="2" />
+</GridLayout>
